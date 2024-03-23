@@ -274,5 +274,6 @@ console.log(transAnalyzer.getTransactionsInDateRange('2019-02-02', '2019-04-03')
 console.log(transAnalyzer.getTransactionsByAmountRange(100, 500));
 //Пооучение транакций в определенную дату
 console.log(transAnalyzer.calculateTotalAmountByDate('2019-02-11'));
-
+//Получения массива с описаниями транзакций
+console.log(transAnalyzer.mapTransactionDescriptions());
 
